@@ -8,7 +8,6 @@
 h1
 {
     margin: 0px;
-
 }
 
 h3
@@ -19,7 +18,7 @@ h3
 
 h4
 {
-    font-size: 1.8em;
+    font-size: 1.4em;
     font-style: normal;
     font-family: 'Roboto Condensed';
     font-weight: 400;
@@ -39,8 +38,7 @@ p
 }
 
 #content
-{
-    padding-left: 40px;    
+{  
 }
 
 #nametag ul
@@ -75,25 +73,30 @@ p
 
 #topProjects
 {
-    padding-left: 0px;
+    padding-left: 30px;
     display: inline-block;
+	background-color: #f1f1f1;
+	width: 100%;
 }
 #topProjects h3
 {
+	
 }
 #topProjects .top
 {
-    margin-top: -20px;
+    margin-top: -60px;
+    margin-left: -60px;
     display:inline-block;
-    width: 450px;   
-    padding: 20px; 
-    padding-left: 0px;
+    width: 350px;   
+    padding: 50px; 
+    padding-bottom: 0px; 
+    margin-bottom: -10px; 
     font-size: small;
     vertical-align: top;
 }
 #topProjects img
 {
-    height: 33%;
+    height: 19%;
 }
 #topProjects li
 {
@@ -104,14 +107,24 @@ p
 #latest 
 {
     display: inline-block;
-    margin-top: -30px;
+	text-align: center;
+	background-color: #ccc;
+}
+#latest h3
+{
+	text-align: left;
+	padding-left: 30px;
 }
 #latest img
 {
     display: inline;
-    float: left;
     padding-left: 20px;    
     padding-right: 20px;
+}
+#latest p
+{
+	padding: 0 80px 00px 80px;
+	text-align: left;
 }
 
 h5
